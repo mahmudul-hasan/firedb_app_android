@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="black">#000</color>
+    <color name="float_mat_dark_black">#424242</color>
+    <color name="blue">#00f</color>
+    <color name="red">#f00</color>
+    <color name="gray_light">#f2f2f3</color>
+    <color name="gray_medium">#d9d9da</color>
+    <color name="gray_dark">#adadae</color>
+    <color name="google_red">#db3236</color>
+    <color name="facebook_blue">#3b5998</color>
+</resources>

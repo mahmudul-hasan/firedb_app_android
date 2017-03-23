@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "203017803051",
+    "firebase_url": "https://dbapp-4eac2.firebaseio.com",
+    "project_id": "dbapp-4eac2",
+    "storage_bucket": "dbapp-4eac2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:203017803051:android:7862aba84a3ee38f",
+        "android_client_info": {
+          "package_name": "com.mhstudio.dbapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "203017803051-t934vg2nhhlf2v10po9acv4lsrc50mui.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsp-oHKrnLebipHH5OtSZXV_kyoqvC7k0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

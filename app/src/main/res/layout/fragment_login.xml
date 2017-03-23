@@ -1,0 +1,149 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="loginandregistration.LoginFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="15dp"
+                >
+                <EditText
+                    android:id="@+id/login_userid"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/edittext_border"
+                    android:padding="5dp"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress"
+                    android:gravity="center" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"/>
+
+                <EditText
+                    android:id="@+id/login_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/login_userid"
+                    android:background="@drawable/edittext_border"
+                    android:padding="5dp"
+                    android:inputType="textPassword"
+                    android:hint="Password"
+                    android:gravity="center" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <Button
+                        android:id="@+id/btn_login"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="@drawable/button_trans_border"
+                        android:text="Log in"
+                        android:layout_weight=".5"/>
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="match_parent" />
+
+                    <Button
+                        android:id="@+id/btn_signup"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="@drawable/button_trans_border"
+                        android:text="Sign up"
+                        android:layout_weight=".5"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"/>
+
+                <TextView
+                    android:id="@+id/txt_login_forgotpassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Forgot password?"
+                    android:textSize="@dimen/abc_text_size_medium_material"
+                    android:gravity="center"
+                    android:textStyle="bold"/>
+
+                <LinearLayout
+                    android:id="@+id/ll_login_reset_pass"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1"
+                    android:gravity="center"
+                    android:visibility="gone">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Please provide the email you signed up with then press Send"
+                        android:layout_weight=".7"/>
+                    <Button
+                        android:id="@+id/btn_login_send_reset_pass"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:background="@drawable/button_trans_border"
+                        android:text="Send"
+                        android:layout_weight=".3"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Or sign in with "
+                    android:textSize="@dimen/abc_text_size_medium_material"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"/>
+
+                <Button
+                    android:id="@+id/btn_login_with_google"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/button_google"
+                    android:text="Google"
+                    android:textSize="@dimen/abc_text_size_medium_material"
+                    android:textColor="@color/gray_light"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"/>
+
+                <Button
+                    android:id="@+id/btn_login_with_facebook"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/button_facebook"
+                    android:text="Facebook"
+                    android:textSize="@dimen/abc_text_size_medium_material"
+                    android:textColor="@color/gray_light"/>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </ScrollView>
+
+</LinearLayout>

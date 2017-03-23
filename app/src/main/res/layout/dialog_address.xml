@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+
+    <EditText
+        android:id="@+id/et_spot_street"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Street"
+        android:background="@drawable/edittext_border"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/et_spot_city"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/et_spot_street"
+        android:hint="City"
+        android:background="@drawable/edittext_border"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_spot_city">
+        <EditText
+            android:id="@+id/et_spot_state"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="State"
+            android:background="@drawable/edittext_border"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:layout_weight=".5"/>
+
+        <EditText
+            android:id="@+id/et_spot_zip"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Zip code"
+            android:background="@drawable/edittext_border"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:layout_weight=".5"/>
+    </LinearLayout>
+
+</RelativeLayout>

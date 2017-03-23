@@ -1,0 +1,104 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="loginandregistration.SignupFragment"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="15dp"
+                >
+
+                <EditText
+                    android:id="@+id/et_signup_fullname"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/edittext_border"
+                    android:hint="Full Name"
+                    android:gravity="center"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="7dp"/>
+
+                <EditText
+                    android:id="@+id/et_signup_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/edittext_border"
+                    android:hint="Email"
+                    android:gravity="center"
+                    android:inputType="textEmailAddress"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="7dp"/>
+
+                <EditText
+                    android:id="@+id/et_signup_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/edittext_border"
+                    android:hint="Password"
+                    android:gravity="center"
+                    android:inputType="textPassword"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="7dp"/>
+
+                <EditText
+                    android:id="@+id/et_signup_verifypass"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/edittext_border"
+                    android:hint="Verify Password"
+                    android:gravity="center"
+                    android:inputType="textPassword"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"/>
+
+                <Button
+                    android:id="@+id/btn_signup_register"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/button_trans_border"
+                    android:text="Sign me up" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="7dp"/>
+
+                <Button
+                    android:id="@+id/btn_signup_goback"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/button_trans_border"
+                    android:text="Not now" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="By signing up you are agreeing to our terms and conditions."
+                    android:gravity="center"/>
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </ScrollView>
+
+</LinearLayout>
