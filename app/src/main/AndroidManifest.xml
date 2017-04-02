@@ -9,6 +9,9 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
 
+    <uses-feature android:name="android.hardware.camera2"
+        android:required="true"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -20,7 +23,9 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyAjqYchMUe5WSiuVT1AJWm4qBsqs8MBSnM"></meta-data>
 
-        <activity android:name=".BaseActivity">
+        <activity
+            android:name=".BaseActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

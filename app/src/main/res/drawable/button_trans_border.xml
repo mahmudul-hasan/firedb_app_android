@@ -8,7 +8,7 @@
                 android:width="2dp" />
             <solid android:color="@color/gray_dark" />
             <corners
-                android:radius="2dp" />
+                android:radius="20dp" />
         </shape>
     </item> <!-- pressed -->
 
@@ -19,7 +19,7 @@
                 android:width="2dp" />
             <solid android:color="@android:color/transparent" />
             <corners
-                android:radius="2dp" />
+                android:radius="20dp" />
         </shape>
     </item>
 </selector>
